@@ -1,0 +1,20 @@
+# array-is-sorted
+A small module to check if an Array is sorted.
+
+## Example
+``` javascript
+import sorted from "array-is-sorted"
+
+console.log(sorted([1, 3, 4]))
+// => true
+
+console.log(sorted([3, 2, 1], 'DESC'))
+// => true
+
+console.log(sorted({a: [1]}))
+// => error
+```
+
+## License
+
+This library is free and open-source software released under the MIT license.

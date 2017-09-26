@@ -1,0 +1,24 @@
+{
+  "name": "array-is-sorted",
+  "version": "1.0.5",
+  "description": "A small module to check if an Array is sorted.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register test/index.test.js"
+  },
+  "keywords": [
+    "array",
+    "sorted",
+    "check"
+  ],
+  "author": "haoj",
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "mocha": "^3.5.3"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
