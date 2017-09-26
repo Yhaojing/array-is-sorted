@@ -10,7 +10,6 @@ function isArray(arr) {
  * @returns {boolean}
  */
 function sorted(array, compare = COLLATION.ASC) {
-    console.log('compare:', compare)
     if (isArray(array)) {
         for (let i = 0; i < array.length; i++) {
             const a = array[i];
